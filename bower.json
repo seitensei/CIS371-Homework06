@@ -1,0 +1,21 @@
+{
+  "name": "hw06",
+  "description": "cis371 homework06",
+  "main": "gulpfile.js",
+  "authors": [
+    "tensei <me@tnsi.me>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "hw06",
+  "version": "0.0.1",
+  "description": "cis371 homework06",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "tensei <me@tnsi.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "cssnano": "^3.8.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "^0.0.13",
+    "gulp-connect": "^5.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-watch": "^4.3.10"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.5.1"
+  }
+}

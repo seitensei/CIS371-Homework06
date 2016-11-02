@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <title>CIS371 - Homework 06</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand">
+            CIS371 - Homework 06
+          </span>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- Contents -->
+      <div class="app-element">
+        <div id="datalist">
+          <span>Movies: </span>
+          <select id="titlelist">
+          </select>
+        </div>
+        <div id="datablock">
+
+          <!-- Tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+              <a href="#storyline" aria-controls="titles" role="tab" data-toggle="tab">Storyline</a>
+            </li>
+            <li role="presentation">
+              <a href="#cast" aria-controls="cast" role="tab" data-toggle="tab">Cast</a>
+            </li>
+          </ul>
+
+          <!-- Panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="storyline">
+              STORYLINE
+            </div>
+            <div role="tabpanel" class="tab-pane" id="cast">
+              CAST
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-copyright">
+          Copyright &copy; 2016 Thanh Nguyen<br />
+          Powered by Bootstrap and NodeJS
+        </div>
+      </div>
+    </footer>
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
